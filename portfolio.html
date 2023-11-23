@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-markup-hw-01</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header section">
+      <div class="container header-desktop">
+        <div class="header-desktop-inner">
+          <div class="weblogo">
+            <a href="WEBSTUDIO" class="link-web">
+              <span class="header-web">WEB</span
+              ><span class="header-studio">STUDIO</span>
+            </a>
+          </div>
+          <nav class="header-nav">
+            <ul class="link">
+              <li><a href="index.html" class="link-list">Studio</a></li>
+              <li>
+                <a href="portfolio.html" class="link-list active">Portfolio</a>
+              </li>
+              <li><a href="Contacts" class="link-list">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-contact">
+          <ul class="link">
+            <li class="link-contact">
+              <a href="info@devstudio.com" class="link-list"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="link-contact">
+              <a href="+11(000)111-11-11" class="link-list"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <header class="mobile-nav">
+      <div class="container mobile-container">
+        <a href="WEBSTUDIO" class="link-web">
+          <span class="header-web">WEB</span
+          ><span class="header-studio">STUDIO</span>
+        </a>
+        <svg
+          width="32"
+          height="22"
+          class="js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <use href="./images/icons.svg#hamburger"></use>
+        </svg>
+      </div>
+    </header>
+
+    <div class="js-menu-container mobile-menu" id="mobile-menu">
+      <div class="mobile-menu-container">
+        <button class="js-close-menu">
+          <svg width="18" height="18">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-navbar">
+          <ul class="mobile-links">
+            <li>
+              <a class="mobile-link mobile-active" href="">Studio</a>
+            </li>
+            <li>
+              <a class="mobile-link" href="">Portfolio</a>
+            </li>
+            <li>
+              <a class="mobile-link" href="">Contacts</a>
+            </li>
+          </ul>
+          <div>
+            <ul class="mobile-links">
+              <li>
+                <a class="mobile-link mobile-active" href=""
+                  >11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a href="" class="mobile-contact">info@devstudio.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-icon">
+            <a class="social-icon">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a class="social-icon">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a class="social-icon">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin2"></use>
+              </svg>
+            </a>
+            <a class="social-icon">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <section class="project">
+        <div class="project_list">
+          <button class="project_buttons">All</button>
+          <button class="project_buttons">Web Site</button>
+          <button class="project_buttons">App</button>
+          <button class="project_buttons">Design</button>
+          <button class="project_buttons">Marketing</button>
+        </div>
+      </section>
+      <section Class="Application">
+        <ul class="Application_row">
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Banking_App.jpg"
+                alt="Banking App Interface"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Banking App Interface Concept</h3>
+              <p>App</p>
+            </div>
+          </il>
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Cashless Payment.jpg"
+                alt="Cashless Payment"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Cashless Payment</h3>
+              <p>Marketing</p>
+            </div>
+          </il>
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Med App.jpg"
+                alt="Meditation App"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Meditation App</h3>
+              <p>App</p>
+            </div>
+          </il>
+        </ul>
+        <ul class="Application_row">
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Taxi Service.jpg"
+                alt="Taxi Service"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Taxi Service</h3>
+              <p>Marketing</p>
+            </div>
+          </il>
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Screen.jpg"
+                alt="Screen Illustration"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Screen Illustrations</h3>
+              <p>Design</p>
+            </div>
+          </il>
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Online_course.jpg"
+                alt="Online Courses"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Online Courses</h3>
+              <p>Marketing</p>
+            </div>
+          </il>
+        </ul>
+        <ul class="Application_row">
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Insta_Stories.jpg"
+                alt="Instagram Stories Concept"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Instagram Stories Concept</h3>
+              <p>Design</p>
+            </div>
+          </il>
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Organic_food.jpg"
+                alt="Organic Food"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Organic Food</h3>
+              <p>Web Site</p>
+            </div>
+          </il>
+          <il class="Application-list">
+            <div class="application-image">
+              <img
+                src="./images/P_Fresh_Coffee.jpg"
+                alt="Fresh Coffee"
+                width="360"
+                height="300"
+              />
+              <div class="application-image-caption">
+                <p class="image-caption">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+            </div>
+            <div class="Application_caption">
+              <h3>Fresh Coffee</h3>
+              <p>Web Site</p>
+            </div>
+          </il>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="container footer-section">
+        <div class="inner-footer">
+          <section class="webstudio-link">
+            <a href="WEBSTUDIO" class="link-web">
+              <span class="link-spanweb">WEB</span
+              ><span class="link-spanstudio">STUDIO</span>
+            </a>
+            <p class="footer-text">
+              Increase the flow of customer and <br />
+              sales for your business with digital <br />
+              marketing & growth solutions.
+            </p>
+          </section>
+          <section class="social-media">
+            <h3 class="social-title">Social media</h3>
+            <div class="team-icon">
+              <a class="social-icon">
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a class="social-icon">
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a class="social-icon">
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a class="social-icon">
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin2"></use>
+                </svg>
+              </a>
+            </div>
+          </section>
+        </div>
+        <div class="subscription">
+          <section class="subscription">
+            <form class="footer-subscribe">
+              <label for="user-email">Subscribe</label>
+              <div class="email-subscription">
+                <input
+                  type="email"
+                  name="email"
+                  id="user-email"
+                  class="input-email"
+                  placeholder="E-mail"
+                />
+                <div class="footer-button-list">
+                  <button type="submit" class="footer-subscribe-btn">
+                    Subscribe
+                    <svg class="submit-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-Frame-3"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/mobile-menu.js"></script>
+    <script type="text/javascript" src="./js/modal.js"></script>
+  </body>
+</html>
